@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Permanent+Marker&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gamja Flower", serif;
+  outline: 0;
+}
+
+body {
+  height: 101vh;
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #000;
+  overflow: hidden;
+}
+
+header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  font-size: 40px;
+}
+
+.container {
+  padding: 1%;
+  background-color: transparent;
+  height: 100%;
+  padding: 1%;
+}
+
+.article {
+  background-color: transparent;
+  display: flex;
+  padding: 1%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.date {
+  font-weight: 900;
+  text-align: center;
+}

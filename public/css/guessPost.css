@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Permanent+Marker&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gamja Flower", serif;
+  outline: 0;
+}
+
+body {
+  height: 101vh;
+  width: 100vw;
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #000;
+  overflow: hidden;
+}
+
+header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    font-size: 40px;
+  }
+
+  
+  .containerGuess{
+    padding: 2%;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+  }
+  .containerGuess  h2{
+    font-size: 50px;
+    margin-bottom: 2%;
+  }
+  
+  .containerGuess .dateGuess{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 2%;
+    color: gray;
+    
+  }
+  
+  .containerGuess p{
+    font-size: 30px;
+    margin-bottom: 2%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
